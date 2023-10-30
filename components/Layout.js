@@ -1,11 +1,11 @@
 import Header from './Header';
-
+import '../app/globals.css';
 const Layout = ({ children }) => {
   return (
-    <div>
+    <div className='overflow-hidden '>
       <Header />
       <main>{children}</main>
-      {/* You can include a footer or other common elements here */}
+      {/* footer or other common elements here */}
     </div>
   );
 };

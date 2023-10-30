@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const LeftSidebar = () => {
+
+ 
+
   return (
-    <div className="bg-white text-gray-700 p-4">
-      <ul className="space-y-3 text-ellipsis">
+    <div className=" bg-white text-gray-700 p-4 w-96 ">
+      <ul className="space-y-3 text-ellipsis md:text-sm">
         <li className="flex items-center  cursor-pointer hover:text-blue-600 hover:underline  hover:bg-gray-300 p-1  rounded-md mr-1">
           <a
             href="#"
@@ -92,11 +95,11 @@ const LeftSidebar = () => {
             className="flex "
             target="_blank"
           >
-            🐱‍💻 <p className=" mx-3 font-semibold ">Built by <span className="text-pink-600 underline">Sachchidanand</span></p> 
+            🐱‍💻 <p className=" mx-3 font-semibold ">Built by <span className="text-pink-600 underline md:text-sm">Sachchidanand</span></p> 
           </a>
         </li>
       </ul>
-      <div className="flex justify-start gap-x-4 mt-5">
+      <div className="flex justify-start gap-x-4 mt-5 md:gap-x-1  ">
         <a
           href="https://twitter.com/thepracticaldev"
           target="_blank"
@@ -110,12 +113,12 @@ const LeftSidebar = () => {
             viewBox="0 0 24 24"
             role="img"
             aria-labelledby="agks8azz1otbo6wqseu4m4dbu0pxlke1"
-            className="hover:fill-red-500 hover:stroke-green-500 transition duration-300"
+            className="fill-slate-700"
           >
             <title id="agks8azz1otbo6wqseu4m4dbu0pxlke1">Twitter</title>
             <path
               d="M22.162 5.656a8.383 8.383 0 01-2.402.658A4.196 4.196 0 0021.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 00-7.126 3.814 11.874 11.874 0 01-8.62-4.37 4.168 4.168 0 00-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 01-1.894-.523v.052a4.185 4.185 0 003.355 4.101 4.211 4.211 0 01-1.89.072A4.185 4.185 0 007.97 16.65a8.395 8.395 0 01-6.191 1.732 11.83 11.83 0 006.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.495 8.495 0 002.087-2.165l-.001-.001z"
-              fill="#65bbf2"
+              
             ></path>
           </svg>
         </a>
@@ -132,7 +135,7 @@ const LeftSidebar = () => {
             viewBox="0 0 24 24"
             role="img"
             aria-labelledby="argvj3818l0h4bdk15063vgbs700twhq"
-            className="crayons-icon c-link__icon"
+           
           >
             <title id="argvj3818l0h4bdk15063vgbs700twhq">Facebook</title>
             <path d="M15.402 21v-6.966h2.333l.349-2.708h-2.682V9.598c0-.784.218-1.319 1.342-1.319h1.434V5.857a19.188 19.188 0 00-2.09-.107c-2.067 0-3.482 1.262-3.482 3.58v1.996h-2.338v2.708h2.338V21H4a1 1 0 01-1-1V4a1 1 0 011-1h16a1 1 0 011 1v16a1 1 0 01-1 1h-4.598z"></path>
