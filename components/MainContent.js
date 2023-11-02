@@ -1,7 +1,7 @@
 // Import necessary modules and components
 import React, { useState, useEffect } from "react";
 import ShimmerCardList from "./ShimmerCardList";
-import reactionsData from "../pages/API/reaction_icons";
+import reactionsData from "../app/API/reaction_icons";
 
 // Function to calculate and format time difference
 const formatTimeAgo = (timestamp) => {
